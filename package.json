@@ -1,0 +1,29 @@
+{
+  "name": "bpexch",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "tools/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "db:generate": "npm run generate -w @bpexch/db",
+    "db:migrate": "npm run migrate -w @bpexch/db",
+    "db:push": "dotenv -e .env -- npm run push -w @bpexch/db",
+    "db:seed": "dotenv -e .env -- npm run seed -w @bpexch/db",
+    "discovery": "npm run start -w @bpexch/discovery",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^8.0.0",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

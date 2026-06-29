@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BpExch exchange odds styling */
+.odds-back {
+  @apply text-center font-bold text-[#1a1a1a] cursor-pointer transition-all;
+  background: linear-gradient(180deg, #a8d4f5 0%, #72bbef 100%);
+  border: 1px solid #5aa3db;
+  min-width: 64px;
+  padding: 6px 10px;
+  border-radius: 2px;
+}
+.odds-back:hover {
+  background: linear-gradient(180deg, #72bbef 0%, #5aa3db 100%);
+}
+
+.odds-lay {
+  @apply text-center font-bold text-[#1a1a1a] cursor-pointer transition-all;
+  background: linear-gradient(180deg, #fac9d4 0%, #faa9ba 100%);
+  border: 1px solid #e8899e;
+  min-width: 64px;
+  padding: 6px 10px;
+  border-radius: 2px;
+}
+.odds-lay:hover {
+  background: linear-gradient(180deg, #faa9ba 0%, #e8899e 100%);
+}
+
+.market-table {
+  @apply w-full text-sm border-collapse;
+}
+.market-table th {
+  @apply bg-[#1a2744] text-white text-left px-3 py-2 font-normal text-xs;
+}
+.market-table td {
+  @apply border-b border-gray-200 px-3 py-2 bg-white;
+}
+.market-table tr:hover td {
+  @apply bg-[#f5f8fc];
+}
+
+.betslip-panel {
+  @apply bg-white border border-gray-300 shadow-sm;
+}
+.betslip-header {
+  @apply bg-[#1a2744] text-white px-3 py-2 text-sm font-semibold;
+}
+
+.btn-login {
+  @apply w-full py-2 font-semibold text-white uppercase tracking-wide text-sm;
+  background: linear-gradient(180deg, #3a7bd5 0%, #1a5490 100%);
+  border: 1px solid #144070;
+}
+.btn-login:hover {
+  background: linear-gradient(180deg, #1a5490 0%, #0d3a6b 100%);
+}
+
+.input-bpexch {
+  @apply w-full border border-gray-300 px-3 py-2 text-sm bg-white focus:border-[#3a7bd5] focus:outline-none;
+}
+
+.card-panel {
+  @apply bg-white border border-gray-300 shadow-sm mb-3;
+}
+.card-panel-header {
+  @apply bg-[#1a2744] text-white px-3 py-2 text-sm font-semibold flex justify-between items-center;
+}
+
+.game-tile {
+  @apply bg-white border border-gray-200 hover:border-[#3a7bd5] cursor-pointer transition-all overflow-hidden;
+}
+.game-tile:hover {
+  box-shadow: 0 2px 8px rgba(26, 39, 68, 0.15);
+}

@@ -1,0 +1,742 @@
+[
+  {
+    "method": "POST",
+    "url": "https://wurfl.io/async-detect",
+    "resourceType": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://bpexch.live/cdn-cgi/rum?",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "POST",
+    "url": "https://orders-ws.mgs11.com/usershub/negotiate?negotiateVersion=1",
+    "resourceType": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/users/socket-access?_=1782691140872",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Customer/Wallet",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Common/MarketHighlights",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "POST",
+    "url": "https://t.clarity.ms/collect",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259534068",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/users/profile?_=1782691184233",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "POST",
+    "url": "https://orders-ws.mgs11.com/signalr/negotiate?negotiateVersion=1",
+    "resourceType": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259534068&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259478006",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259478006&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.207848678",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Common/Event/31345701?Evid=31345701&handler=ChannelData",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.207848678&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.bpexch.xyz/cdn-cgi/rum?",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259532760",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259532760&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259532534",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259532534&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259526629",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259526629&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259477856",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259477856&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259464672",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "POST",
+    "url": "https://bpexch.xyz/cdn-cgi/rum?",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259532171",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Common/Event/35765169?Evid=35765169&handler=ChannelData",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259532171&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259532172",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259532172&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259532173",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259532173&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259532174",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259532174&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259532175",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259532175&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259532176",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259532176&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259538147",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Common/Event/35766292?Evid=35766292&handler=ChannelData",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259538147&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://vid.dreamcasino.live/api/token/napi?MatchID=35766292",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259528613",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Common/Event/35764921?Evid=35764921&handler=ChannelData",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259528613&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://vid.dreamcasino.live/api/token/napi?MatchID=35764921",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://orders.mgs11.com/api/orders/event?eventId=35764921&marketId=1.259528613&maxResults=0&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259533736",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Common/Event/35765615?Evid=35765615&handler=ChannelData",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259533736&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://vid.dreamcasino.live/api/token/napi?MatchID=35765615",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259538149",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259538149&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259532637",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Common/Event/35765191?Evid=35765191&handler=ChannelData",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259532637&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://vid.dreamcasino.live/api/token/napi?MatchID=35765191",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://orders.mgs11.com/api/orders/event?eventId=35765191&marketId=1.259532637&maxResults=0&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259528621",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259528621&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259530804",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Common/Event/35765133?Evid=35765133&handler=ChannelData",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259530804&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://vid.dreamcasino.live/api/token/napi?MatchID=35765133",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259538124",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Common/Event/35766291?Evid=35766291&handler=ChannelData",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259538124&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://vid.dreamcasino.live/api/token/napi?MatchID=35766291",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259533739",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259533739&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259538151",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259538151&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259528629",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259528629&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259532640",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259532640&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259530813",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259530813&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259538127",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259538127&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259533742",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259533742&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259538153",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259538153&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259528637",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259528637&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259532643",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259532643&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://orders.mgs11.com/api/orders/event?eventId=35765191&marketId=1.259532643&maxResults=0&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259530822",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259530822&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556682",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Common/Event/35768314?Evid=35768314&handler=ChannelData",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556682&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://vid.dreamcasino.live/api/token/napi?MatchID=35768314",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://orders.mgs11.com/api/orders/event?eventId=35768314&marketId=1.259556682&maxResults=0&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556685",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556685&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556688",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556688&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556691",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556691&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556694",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556694&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556697",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556697&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556700",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556700&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556703",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556703&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556706",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556706&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556709",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556709&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556712",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556712&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556715",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556715&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556718",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556718&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259560222",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Common/Event/35768895?Evid=35768895&handler=ChannelData",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259560222&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://vid.dreamcasino.live/api/token/napi?MatchID=35768895",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259560225",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259560225&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://orders.mgs11.com/api/orders/event?eventId=35768895&marketId=1.259560225&maxResults=0&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556505",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/Common/Event/35768312?Evid=35768312&handler=ChannelData",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556505&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://vid.dreamcasino.live/api/token/napi?MatchID=35768312",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259560228",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259560228&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556508",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556508&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259560231",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259560231&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/api/markets/catalog2/?id=1.259556511",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://p7.0007001.xyz/api/Markets/Data?id=1.259556511&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNTMzNzgiLCJzdWIiOiJTaHJvejk5NiIsInR5cCI6IjQiLCJwcml2IjoiMCIsImN1ciI6IlJzLiIsImNyZSI6IjEuMDAwMCIsIm5iZiI6MTc4MjY5MTE0MSwiZXhwIjoxNzgyNjk0NzQxLCJpYXQiOjE3ODI2OTExNDEsImlzcyI6IndlYmV4Y2hhbmdlIn0.1Lo7x3HpuLjpvnvdfxqYWOnu62U4OPwOXWDdVF4G1VDfCnPBVcqG3vtDvjt4uLMgope7vq1yRakBSDJ0pZNKog",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "POST",
+    "url": "https://fawk.app/operator/OperatorDomain",
+    "resourceType": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://supernowa.net/assets/i18n/en.json",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://supernowa.net/api/User/GetConfig",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "POST",
+    "url": "https://supernowa.net/api/User/GetBalance",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "POST",
+    "url": "https://supernowa.net/api/Game/GetGameList",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "POST",
+    "url": "https://supernowa.net/cdn-cgi/rum?",
+    "resourceType": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://bpexch.live/common/galaxy/?handler=tab&tabId=0",
+    "resourceType": "xhr"
+  }
+]

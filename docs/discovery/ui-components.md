@@ -1,0 +1,167 @@
+# UI Components Discovery
+
+Generated: 2026-06-29T00:02:45.084Z
+Base URL: https://bpexch.live
+Logged in: true
+
+## Navigation Links (244)
+- https://bpexch.live/Common/Dashboard
+- https://bpexch.live/Common/Dashboard?r=/#
+- https://bpexch.live/Common/Event/35765620
+- https://bpexch.live/Common/Event/35760639
+- https://bpexch.live/Common/Event/31345701
+- https://bpexch.live/Common/Event/35765183
+- https://bpexch.live/Common/Event/35765182
+- https://bpexch.live/Common/Event/35764745
+- https://bpexch.live/Common/Event/35760641
+- https://bpexch.live/Common/Event/35759162
+- https://bpexch.live/Common/Market/?id=1.259568013
+- https://bpexch.live/Common/Market/?id=1.259569207
+- https://bpexch.live/Common/Market/?id=1.259372727
+- https://bpexch.live/Common/Market/?id=1.259568084
+- https://bpexch.live/Common/Market/?id=1.259536071
+- https://bpexch.live/Common/Market/?id=1.259561353
+- https://bpexch.live/Common/Market/?id=1.259435885
+- https://bpexch.live/Common/Event/35765169.2350
+- https://bpexch.live/Common/Event/35765169.0015
+- https://bpexch.live/Common/Event/35765169.0040
+- https://bpexch.live/Common/Event/35765169.0105
+- https://bpexch.live/Common/Event/35765169.0130
+- https://bpexch.live/Common/Event/35765169.0155
+- https://bpexch.live/Common/Event/35766292.0212
+- https://bpexch.live/Common/Event/35764921.0230
+- https://bpexch.live/Common/Event/35765615.0240
+- https://bpexch.live/Common/Event/35766292.0247
+- https://bpexch.live/Common/Event/35765191.0255
+- https://bpexch.live/Common/Event/35764921.0300
+- https://bpexch.live/Common/Event/35765133.0303
+- https://bpexch.live/Common/Event/35766291.0310
+- https://bpexch.live/Common/Event/35765615.0315
+- https://bpexch.live/Common/Event/35766292.0322
+- https://bpexch.live/Common/Event/35764921.0330
+- https://bpexch.live/Common/Event/35765191.0335
+- https://bpexch.live/Common/Event/35765133.0342
+- https://bpexch.live/Common/Event/35766291.0345
+- https://bpexch.live/Common/Event/35765615.0350
+- https://bpexch.live/Common/Event/35766292.0353
+- https://bpexch.live/Common/Event/35764921.0400
+- https://bpexch.live/Common/Event/35765191.0410
+- https://bpexch.live/Common/Event/35765133.0417
+- https://bpexch.live/Common/Event/35768314.0025
+- https://bpexch.live/Common/Event/35768314.0041
+- https://bpexch.live/Common/Event/35768314.0057
+- https://bpexch.live/Common/Event/35768314.0117
+- https://bpexch.live/Common/Event/35768314.0132
+- https://bpexch.live/Common/Event/35768314.0149
+- https://bpexch.live/Common/Event/35768314.0205
+- https://bpexch.live/Common/Event/35768314.0221
+
+## Routes Captured (90)
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Dashboard** — Dashboard | BpExch
+- **/Common/Event/35765620** — Australia v Egypt | BpExch
+- **/Common/Event/35760639** — Brazil v Japan | BpExch
+- **/Common/Event/31345701** — FIFA World Cup | BpExch
+- **/Common/Event/35765183** — France v Sweden | BpExch
+- **/Common/Event/35765182** — Germany v Paraguay | BpExch
+- **/Common/Event/35764745** — Ivory Coast v Norway | BpExch
+- **/Common/Event/35760641** — Netherlands v Morocco | BpExch
+- **/Common/Event/35759162** — USA v Bosnia | BpExch
+- **/Common/Market/** — Error on Exchange
+- **/Common/Event/35765169.2350** — 4:50 pm Mountaineer Park (US) 28th Jun
+- **/Common/Event/35765169.0015** — 5:15 pm Mountaineer Park (US) 28th Jun
+- **/Common/Event/35765169.0040** — 5:40 pm Mountaineer Park (US) 28th Jun
+- **/Common/Event/35765169.0105** — 6:05 pm Mountaineer Park (US) 28th Jun
+- **/Common/Event/35765169.0130** — 6:30 pm Mountaineer Park (US) 28th Jun
+- **/Common/Event/35765169.0155** — 6:55 pm Mountaineer Park (US) 28th Jun
+- **/Common/Event/35766292.0212** — 7:12 pm Maryborough (AUS) 29th Jun
+- **/Common/Event/35764921.0230** — 7:30 pm Pakenham (AUS) 29th Jun
+- **/Common/Event/35765615.0240** — 7:40 pm Albury (AUS) 29th Jun
+- **/Common/Event/35766292.0247** — 7:47 pm Maryborough (AUS) 29th Jun
+- **/Common/Event/35765191.0255** — 7:55 pm Scone (AUS) 29th Jun
+- **/Common/Event/35764921.0300** — 8:00 pm Pakenham (AUS) 29th Jun
+- **/Common/Event/35765133.0303** — 8:03 pm Emerald (AUS) 29th Jun
+- **/Common/Event/35766291.0310** — 8:10 pm Newcastle (AUS) 29th Jun
+- **/Common/Event/35765615.0315** — 8:15 pm Albury (AUS) 29th Jun
+- **/Common/Event/35766292.0322** — 8:22 pm Maryborough (AUS) 29th Jun
+- **/Common/Event/35764921.0330** — 8:30 pm Pakenham (AUS) 29th Jun
+- **/Common/Event/35765191.0335** — 8:35 pm Scone (AUS) 29th Jun
+- **/Common/Event/35765133.0342** — 8:42 pm Emerald (AUS) 29th Jun
+- **/Common/Event/35766291.0345** — 8:45 pm Newcastle (AUS) 29th Jun
+- **/Common/Event/35765615.0350** — 8:50 pm Albury (AUS) 29th Jun
+- **/Common/Event/35766292.0353** — 8:53 pm Maryborough (AUS) 29th Jun
+- **/Common/Event/35764921.0400** — 9:00 pm Pakenham (AUS) 29th Jun
+- **/Common/Event/35765191.0410** — 9:10 pm Scone (AUS) 29th Jun
+- **/Common/Event/35765133.0417** — 9:17 pm Emerald (AUS) 29th Jun
+- **/Common/Event/35768314.0025** — 5:25 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768314.0041** — 5:41 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768314.0057** — 5:57 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768314.0117** — 6:17 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768314.0132** — 6:32 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768314.0149** — 6:49 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768314.0205** — 7:05 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768314.0221** — 7:21 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768314.0244** — 7:44 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768314.0307** — 8:07 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768314.0327** — 8:27 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768314.0347** — 8:47 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768314.0407** — 9:07 pm Shepparton (AUS) 29th Jun
+- **/Common/Event/35768895.0414** — 9:14 pm Warrnambool (AUS) 29th Jun
+- **/Common/Event/35768895.0437** — 9:37 pm Warrnambool (AUS) 29th Jun
+- **/Common/Event/35768312.0442** — 9:42 pm Traralgon (AUS) 29th Jun
+- **/Common/Event/35768895.0457** — 9:57 pm Warrnambool (AUS) 29th Jun
+- **/Common/Event/35768312.0506** — 10:06 pm Traralgon (AUS) 29th Jun
+- **/Common/Event/35768895.0512** — 10:12 pm Warrnambool (AUS) 29th Jun
+- **/Common/Event/35768312.0524** — 10:24 pm Traralgon (AUS) 29th Jun
+- **/Common/sap** — Premium Games | BpExch
+- **/Common/RSC** — Casino | BpExch
+- **/Common/Games** — Star Casino | BpExch
+- **/Common/WorldCasino** — World Casino | BpExch
+- **/Common/Dream** — Casino | BpExch
+- **/Common/ExGames** — | BpExch
+- **/Common/BetProGames** — TeenPatti Studio | BpExch
+- **/Common/Galaxy** — Galaxy Casino | BpExch
+- **/Customer/Liable** — Liabilities | BpExch
+- **/Common/Result** — Market Results | BpExch
+- **/Customer/Ledger/** — Account Ledger | BpExch
+- **/Common/Result/** — Market Results | BpExch
+- **/Customer/ProfitLoss/** — Profit Loss | BpExch
+- **/Customer/Bets** — Bets History | BpExch
+- **/Customer/Profile** — Profile | BpExch
+- **/Users/Login** — BpExch Login
+- **/Users/Login** — BpExch Login
+- **/Users/Login** — BpExch Login
+
+## Games Found (7)
+- Unknown (unknown) — iframe: https://supernowa.net/lobby?Token=3E3A5FD2-5D42-4BB9-9730-725B43FD5D1F
+- Lucky Jet (unknown)
+- 7-Up-Down (unknown)
+- TeenPatti T20 (unknown)
+- HiLo (unknown)
+- Andar Bahar (unknown)
+- Dragon Tiger (unknown)
+
+## Expected MVP UI Components
+- Top nav: Sports | In-Play | Casino | Wallet | Account
+- Market table: Runner | Back | Lay columns
+- Bet slip: side, odds, stake, potential profit
+- Casino lobby: category tabs + game grid
+- Wallet: balance, deposit request, withdrawal request, statement
+- Agent panel: create user, credit, downline list
+- Admin: hierarchy tree, pending withdrawals, audit log

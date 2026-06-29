@@ -1,0 +1,542 @@
+[
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:05.262Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/users/login",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:07.532Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/users/dashboard",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:09.751Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/users/home",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:11.965Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/sports",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:14.202Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/sports/inplay",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:16.390Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/casino",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:18.672Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/casino/live",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:21.140Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/wallet",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:23.507Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/account/statement",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:25.810Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/bets/open",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:28.134Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/bets/history",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:30.487Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/agent",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:32.841Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/agent/users",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:35.052Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/agent/reports",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:37.198Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/admin",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:39.366Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard?r=/admin/dashboard",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:41.548Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dashboard",
+    "title": "Dashboard | BpExch",
+    "path": "/Common/Dashboard",
+    "timestamp": "2026-06-28T23:59:43.572Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765620",
+    "title": "Australia v Egypt | BpExch",
+    "path": "/Common/Event/35765620",
+    "timestamp": "2026-06-28T23:59:45.774Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35760639",
+    "title": "Brazil v Japan | BpExch",
+    "path": "/Common/Event/35760639",
+    "timestamp": "2026-06-28T23:59:47.830Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/31345701",
+    "title": "FIFA World Cup | BpExch",
+    "path": "/Common/Event/31345701",
+    "timestamp": "2026-06-28T23:59:49.989Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765183",
+    "title": "France v Sweden | BpExch",
+    "path": "/Common/Event/35765183",
+    "timestamp": "2026-06-28T23:59:52.314Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765182",
+    "title": "Germany v Paraguay | BpExch",
+    "path": "/Common/Event/35765182",
+    "timestamp": "2026-06-28T23:59:54.313Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35764745",
+    "title": "Ivory Coast v Norway | BpExch",
+    "path": "/Common/Event/35764745",
+    "timestamp": "2026-06-28T23:59:56.396Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35760641",
+    "title": "Netherlands v Morocco | BpExch",
+    "path": "/Common/Event/35760641",
+    "timestamp": "2026-06-28T23:59:58.386Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35759162",
+    "title": "USA v Bosnia | BpExch",
+    "path": "/Common/Event/35759162",
+    "timestamp": "2026-06-29T00:00:00.582Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Market/",
+    "title": "Error on Exchange",
+    "path": "/Common/Market/",
+    "timestamp": "2026-06-29T00:00:04.876Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765169.2350",
+    "title": "4:50 pm Mountaineer Park (US) 28th Jun",
+    "path": "/Common/Event/35765169.2350",
+    "timestamp": "2026-06-29T00:00:07.278Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765169.0015",
+    "title": "5:15 pm Mountaineer Park (US) 28th Jun",
+    "path": "/Common/Event/35765169.0015",
+    "timestamp": "2026-06-29T00:00:09.298Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765169.0040",
+    "title": "5:40 pm Mountaineer Park (US) 28th Jun",
+    "path": "/Common/Event/35765169.0040",
+    "timestamp": "2026-06-29T00:00:11.360Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765169.0105",
+    "title": "6:05 pm Mountaineer Park (US) 28th Jun",
+    "path": "/Common/Event/35765169.0105",
+    "timestamp": "2026-06-29T00:00:13.379Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765169.0130",
+    "title": "6:30 pm Mountaineer Park (US) 28th Jun",
+    "path": "/Common/Event/35765169.0130",
+    "timestamp": "2026-06-29T00:00:15.602Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765169.0155",
+    "title": "6:55 pm Mountaineer Park (US) 28th Jun",
+    "path": "/Common/Event/35765169.0155",
+    "timestamp": "2026-06-29T00:00:17.758Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35766292.0212",
+    "title": "7:12 pm Maryborough (AUS) 29th Jun",
+    "path": "/Common/Event/35766292.0212",
+    "timestamp": "2026-06-29T00:00:19.940Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35764921.0230",
+    "title": "7:30 pm Pakenham (AUS) 29th Jun",
+    "path": "/Common/Event/35764921.0230",
+    "timestamp": "2026-06-29T00:00:22.208Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765615.0240",
+    "title": "7:40 pm Albury (AUS) 29th Jun",
+    "path": "/Common/Event/35765615.0240",
+    "timestamp": "2026-06-29T00:00:24.487Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35766292.0247",
+    "title": "7:47 pm Maryborough (AUS) 29th Jun",
+    "path": "/Common/Event/35766292.0247",
+    "timestamp": "2026-06-29T00:00:26.663Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765191.0255",
+    "title": "7:55 pm Scone (AUS) 29th Jun",
+    "path": "/Common/Event/35765191.0255",
+    "timestamp": "2026-06-29T00:00:29.081Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35764921.0300",
+    "title": "8:00 pm Pakenham (AUS) 29th Jun",
+    "path": "/Common/Event/35764921.0300",
+    "timestamp": "2026-06-29T00:00:32.209Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765133.0303",
+    "title": "8:03 pm Emerald (AUS) 29th Jun",
+    "path": "/Common/Event/35765133.0303",
+    "timestamp": "2026-06-29T00:00:34.604Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35766291.0310",
+    "title": "8:10 pm Newcastle (AUS) 29th Jun",
+    "path": "/Common/Event/35766291.0310",
+    "timestamp": "2026-06-29T00:00:36.918Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765615.0315",
+    "title": "8:15 pm Albury (AUS) 29th Jun",
+    "path": "/Common/Event/35765615.0315",
+    "timestamp": "2026-06-29T00:00:39.169Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35766292.0322",
+    "title": "8:22 pm Maryborough (AUS) 29th Jun",
+    "path": "/Common/Event/35766292.0322",
+    "timestamp": "2026-06-29T00:00:41.354Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35764921.0330",
+    "title": "8:30 pm Pakenham (AUS) 29th Jun",
+    "path": "/Common/Event/35764921.0330",
+    "timestamp": "2026-06-29T00:00:43.715Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765191.0335",
+    "title": "8:35 pm Scone (AUS) 29th Jun",
+    "path": "/Common/Event/35765191.0335",
+    "timestamp": "2026-06-29T00:00:46.020Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765133.0342",
+    "title": "8:42 pm Emerald (AUS) 29th Jun",
+    "path": "/Common/Event/35765133.0342",
+    "timestamp": "2026-06-29T00:00:48.336Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35766291.0345",
+    "title": "8:45 pm Newcastle (AUS) 29th Jun",
+    "path": "/Common/Event/35766291.0345",
+    "timestamp": "2026-06-29T00:00:50.856Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765615.0350",
+    "title": "8:50 pm Albury (AUS) 29th Jun",
+    "path": "/Common/Event/35765615.0350",
+    "timestamp": "2026-06-29T00:00:53.120Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35766292.0353",
+    "title": "8:53 pm Maryborough (AUS) 29th Jun",
+    "path": "/Common/Event/35766292.0353",
+    "timestamp": "2026-06-29T00:00:55.477Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35764921.0400",
+    "title": "9:00 pm Pakenham (AUS) 29th Jun",
+    "path": "/Common/Event/35764921.0400",
+    "timestamp": "2026-06-29T00:00:57.647Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765191.0410",
+    "title": "9:10 pm Scone (AUS) 29th Jun",
+    "path": "/Common/Event/35765191.0410",
+    "timestamp": "2026-06-29T00:01:00.210Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35765133.0417",
+    "title": "9:17 pm Emerald (AUS) 29th Jun",
+    "path": "/Common/Event/35765133.0417",
+    "timestamp": "2026-06-29T00:01:02.680Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0025",
+    "title": "5:25 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0025",
+    "timestamp": "2026-06-29T00:01:04.886Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0041",
+    "title": "5:41 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0041",
+    "timestamp": "2026-06-29T00:01:07.227Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0057",
+    "title": "5:57 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0057",
+    "timestamp": "2026-06-29T00:01:09.577Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0117",
+    "title": "6:17 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0117",
+    "timestamp": "2026-06-29T00:01:11.795Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0132",
+    "title": "6:32 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0132",
+    "timestamp": "2026-06-29T00:01:13.895Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0149",
+    "title": "6:49 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0149",
+    "timestamp": "2026-06-29T00:01:16.094Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0205",
+    "title": "7:05 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0205",
+    "timestamp": "2026-06-29T00:01:18.352Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0221",
+    "title": "7:21 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0221",
+    "timestamp": "2026-06-29T00:01:20.559Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0244",
+    "title": "7:44 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0244",
+    "timestamp": "2026-06-29T00:01:22.728Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0307",
+    "title": "8:07 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0307",
+    "timestamp": "2026-06-29T00:01:24.803Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0327",
+    "title": "8:27 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0327",
+    "timestamp": "2026-06-29T00:01:26.962Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0347",
+    "title": "8:47 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0347",
+    "timestamp": "2026-06-29T00:01:29.028Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768314.0407",
+    "title": "9:07 pm Shepparton (AUS) 29th Jun",
+    "path": "/Common/Event/35768314.0407",
+    "timestamp": "2026-06-29T00:01:31.061Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768895.0414",
+    "title": "9:14 pm Warrnambool (AUS) 29th Jun",
+    "path": "/Common/Event/35768895.0414",
+    "timestamp": "2026-06-29T00:01:33.084Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768895.0437",
+    "title": "9:37 pm Warrnambool (AUS) 29th Jun",
+    "path": "/Common/Event/35768895.0437",
+    "timestamp": "2026-06-29T00:01:35.302Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768312.0442",
+    "title": "9:42 pm Traralgon (AUS) 29th Jun",
+    "path": "/Common/Event/35768312.0442",
+    "timestamp": "2026-06-29T00:01:37.418Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768895.0457",
+    "title": "9:57 pm Warrnambool (AUS) 29th Jun",
+    "path": "/Common/Event/35768895.0457",
+    "timestamp": "2026-06-29T00:01:39.552Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768312.0506",
+    "title": "10:06 pm Traralgon (AUS) 29th Jun",
+    "path": "/Common/Event/35768312.0506",
+    "timestamp": "2026-06-29T00:01:41.663Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768895.0512",
+    "title": "10:12 pm Warrnambool (AUS) 29th Jun",
+    "path": "/Common/Event/35768895.0512",
+    "timestamp": "2026-06-29T00:01:43.743Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Event/35768312.0524",
+    "title": "10:24 pm Traralgon (AUS) 29th Jun",
+    "path": "/Common/Event/35768312.0524",
+    "timestamp": "2026-06-29T00:01:45.886Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/sap",
+    "title": "Premium Games | BpExch",
+    "path": "/Common/sap",
+    "timestamp": "2026-06-29T00:01:48.029Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/RSC",
+    "title": "Casino | BpExch",
+    "path": "/Common/RSC",
+    "timestamp": "2026-06-29T00:01:50.016Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Games",
+    "title": "Star Casino | BpExch",
+    "path": "/Common/Games",
+    "timestamp": "2026-06-29T00:01:52.407Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/WorldCasino",
+    "title": "World Casino | BpExch",
+    "path": "/Common/WorldCasino",
+    "timestamp": "2026-06-29T00:01:54.503Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Dream",
+    "title": "Casino | BpExch",
+    "path": "/Common/Dream",
+    "timestamp": "2026-06-29T00:02:01.038Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/ExGames",
+    "title": "| BpExch",
+    "path": "/Common/ExGames",
+    "timestamp": "2026-06-29T00:02:15.899Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/BetProGames",
+    "title": "TeenPatti Studio | BpExch",
+    "path": "/Common/BetProGames",
+    "timestamp": "2026-06-29T00:02:18.267Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Galaxy",
+    "title": "Galaxy Casino | BpExch",
+    "path": "/Common/Galaxy",
+    "timestamp": "2026-06-29T00:02:21.318Z"
+  },
+  {
+    "url": "https://bpexch.live/Customer/Liable",
+    "title": "Liabilities | BpExch",
+    "path": "/Customer/Liable",
+    "timestamp": "2026-06-29T00:02:23.367Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Result",
+    "title": "Market Results | BpExch",
+    "path": "/Common/Result",
+    "timestamp": "2026-06-29T00:02:27.037Z"
+  },
+  {
+    "url": "https://bpexch.live/Customer/Ledger/",
+    "title": "Account Ledger | BpExch",
+    "path": "/Customer/Ledger/",
+    "timestamp": "2026-06-29T00:02:29.694Z"
+  },
+  {
+    "url": "https://bpexch.live/Common/Result/",
+    "title": "Market Results | BpExch",
+    "path": "/Common/Result/",
+    "timestamp": "2026-06-29T00:02:31.852Z"
+  },
+  {
+    "url": "https://bpexch.live/Customer/ProfitLoss/",
+    "title": "Profit Loss | BpExch",
+    "path": "/Customer/ProfitLoss/",
+    "timestamp": "2026-06-29T00:02:33.988Z"
+  },
+  {
+    "url": "https://bpexch.live/Customer/Bets",
+    "title": "Bets History | BpExch",
+    "path": "/Customer/Bets",
+    "timestamp": "2026-06-29T00:02:36.325Z"
+  },
+  {
+    "url": "https://bpexch.live/Customer/Profile",
+    "title": "Profile | BpExch",
+    "path": "/Customer/Profile",
+    "timestamp": "2026-06-29T00:02:38.300Z"
+  },
+  {
+    "url": "https://bpexch.live/Users/Login",
+    "title": "BpExch Login",
+    "path": "/Users/Login",
+    "timestamp": "2026-06-29T00:02:40.552Z"
+  },
+  {
+    "url": "https://bpexch.live/Users/Login",
+    "title": "BpExch Login",
+    "path": "/Users/Login",
+    "timestamp": "2026-06-29T00:02:42.728Z"
+  },
+  {
+    "url": "https://bpexch.live/Users/Login",
+    "title": "BpExch Login",
+    "path": "/Users/Login",
+    "timestamp": "2026-06-29T00:02:44.758Z"
+  }
+]

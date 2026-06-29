@@ -1,0 +1,441 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  SUPER_ADMIN
+  ADMIN
+  MANAGER
+  AGENT
+  USER
+}
+
+enum UserStatus {
+  ACTIVE
+  SUSPENDED
+  PENDING
+}
+
+enum BetSide {
+  BACK
+  LAY
+}
+
+enum BetStatus {
+  OPEN
+  MATCHED
+  WON
+  LOST
+  VOID
+  CANCELLED
+}
+
+enum LedgerEntryType {
+  CREDIT
+  DEBIT
+}
+
+enum LedgerReferenceType {
+  MANUAL_CREDIT
+  MANUAL_DEBIT
+  DEPOSIT
+  WITHDRAWAL
+  BET_STAKE
+  BET_WIN
+  BET_REFUND
+  COMMISSION
+  CASINO_BET
+  CASINO_WIN
+}
+
+enum WithdrawalStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  PAID
+}
+
+enum DepositStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum GameCategory {
+  LIVE_DEALER
+  AVIATOR
+  SLOTS
+  TABLE
+  CRASH
+}
+
+enum GameSessionStatus {
+  ACTIVE
+  CLOSED
+  EXPIRED
+}
+
+enum EventStatus {
+  UPCOMING
+  IN_PLAY
+  SUSPENDED
+  CLOSED
+  SETTLED
+}
+
+enum MarketStatus {
+  OPEN
+  SUSPENDED
+  CLOSED
+  SETTLED
+}
+
+enum KycStatus {
+  NOT_SUBMITTED
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum OrderBookStatus {
+  OPEN
+  PARTIALLY_MATCHED
+  FULLY_MATCHED
+  CANCELLED
+}
+
+model User {
+  id              String     @id @default(cuid())
+  username        String     @unique
+  passwordHash    String
+  role            UserRole
+  status          UserStatus @default(ACTIVE)
+  parentId        String?
+  parent          User?      @relation("UserHierarchy", fields: [parentId], references: [id])
+  children        User[]     @relation("UserHierarchy")
+  locale          String     @default("en")
+  phone           String?
+  kycStatus       KycStatus  @default(NOT_SUBMITTED)
+  depositLimit    Decimal?   @db.Decimal(18, 2)
+  selfExcludedUntil DateTime?
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+
+  wallet              Wallet?
+  hierarchyClosures   HierarchyClosure[] @relation("Ancestor")
+  hierarchyDescendants HierarchyClosure[] @relation("Descendant")
+  bets                Bet[]
+  orderBookEntries    OrderBookEntry[]
+  gameSessions        GameSession[]
+  withdrawalRequests  WithdrawalRequest[]
+  depositRequests     DepositRequest[]
+  auditLogs           AuditLog[]          @relation("AuditActor")
+  commissionAccruals  CommissionAccrual[]
+  kycDocuments        KycDocument[]
+  refreshTokens       RefreshToken[]
+
+  @@index([parentId])
+  @@index([role])
+}
+
+model HierarchyClosure {
+  ancestorId   String
+  descendantId String
+  depth        Int
+
+  ancestor   User @relation("Ancestor", fields: [ancestorId], references: [id], onDelete: Cascade)
+  descendant User @relation("Descendant", fields: [descendantId], references: [id], onDelete: Cascade)
+
+  @@id([ancestorId, descendantId])
+  @@index([descendantId])
+}
+
+model RefreshToken {
+  id        String   @id @default(cuid())
+  userId    String
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model Wallet {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  balance   Decimal  @default(0) @db.Decimal(18, 2)
+  currency  String   @default("PKR")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user          User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  ledgerEntries LedgerEntry[]
+}
+
+model LedgerEntry {
+  id             String              @id @default(cuid())
+  walletId       String
+  type           LedgerEntryType
+  amount         Decimal             @db.Decimal(18, 2)
+  balanceAfter   Decimal             @db.Decimal(18, 2)
+  referenceType  LedgerReferenceType
+  referenceId    String?
+  idempotencyKey String?             @unique
+  note           String?
+  createdAt      DateTime            @default(now())
+
+  wallet Wallet @relation(fields: [walletId], references: [id], onDelete: Cascade)
+
+  @@index([walletId, createdAt])
+  @@index([referenceType, referenceId])
+}
+
+model Sport {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  slug      String   @unique
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  events    Event[]
+}
+
+model Event {
+  id           String      @id @default(cuid())
+  sportId      String
+  externalId   String?     @unique
+  name         String
+  startTime    DateTime
+  status       EventStatus @default(UPCOMING)
+  resultRunnerId String?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  sport   Sport    @relation(fields: [sportId], references: [id])
+  markets Market[]
+
+  @@index([sportId, status])
+  @@index([startTime])
+}
+
+model Market {
+  id         String       @id @default(cuid())
+  eventId    String
+  externalId String?
+  name       String
+  status     MarketStatus @default(OPEN)
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+
+  event   Event    @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  runners Runner[]
+
+  @@index([eventId])
+}
+
+model Runner {
+  id         String  @id @default(cuid())
+  marketId   String
+  externalId String?
+  name       String
+  sortOrder  Int     @default(0)
+  isWinner   Boolean?
+
+  market            Market             @relation(fields: [marketId], references: [id], onDelete: Cascade)
+  oddsSnapshots     OddsSnapshot[]
+  bets              Bet[]
+  orderBookEntries  OrderBookEntry[]
+
+  @@index([marketId])
+}
+
+model OddsSnapshot {
+  id        String   @id @default(cuid())
+  runnerId  String
+  backPrice Decimal  @db.Decimal(10, 4)
+  layPrice  Decimal  @db.Decimal(10, 4)
+  createdAt DateTime @default(now())
+
+  runner Runner @relation(fields: [runnerId], references: [id], onDelete: Cascade)
+
+  @@index([runnerId, createdAt])
+}
+
+model Bet {
+  id              String    @id @default(cuid())
+  userId          String
+  runnerId        String
+  side            BetSide
+  odds            Decimal   @db.Decimal(10, 4)
+  stake           Decimal   @db.Decimal(18, 2)
+  status          BetStatus @default(OPEN)
+  matchedStake    Decimal   @default(0) @db.Decimal(18, 2)
+  potentialProfit Decimal   @db.Decimal(18, 2)
+  settledAmount   Decimal?  @db.Decimal(18, 2)
+  idempotencyKey  String?   @unique
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  user   User   @relation(fields: [userId], references: [id])
+  runner Runner @relation(fields: [runnerId], references: [id])
+
+  @@index([userId, status])
+  @@index([runnerId])
+}
+
+model OrderBookEntry {
+  id             String          @id @default(cuid())
+  userId         String
+  runnerId       String
+  side           BetSide
+  odds           Decimal         @db.Decimal(10, 4)
+  stake          Decimal         @db.Decimal(18, 2)
+  remainingStake Decimal         @db.Decimal(18, 2)
+  status         OrderBookStatus @default(OPEN)
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+
+  user   User   @relation(fields: [userId], references: [id])
+  runner Runner @relation(fields: [runnerId], references: [id])
+
+  @@index([runnerId, side, odds])
+  @@index([userId, status])
+}
+
+model Game {
+  id           String       @id @default(cuid())
+  name         String
+  category     GameCategory
+  provider     String
+  providerGameId String?
+  thumbnailUrl String?
+  iframePattern String?
+  isActive     Boolean      @default(true)
+  sortOrder    Int          @default(0)
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+
+  sessions GameSession[]
+}
+
+model GameSession {
+  id                String            @id @default(cuid())
+  userId            String
+  gameId            String
+  providerSessionId String?
+  status            GameSessionStatus @default(ACTIVE)
+  expiresAt         DateTime
+  createdAt         DateTime          @default(now())
+  closedAt          DateTime?
+
+  user User @relation(fields: [userId], references: [id])
+  game Game @relation(fields: [gameId], references: [id])
+
+  @@index([userId, status])
+}
+
+model WithdrawalRequest {
+  id             String           @id @default(cuid())
+  userId         String
+  amount         Decimal          @db.Decimal(18, 2)
+  status         WithdrawalStatus @default(PENDING)
+  paymentMethod  String
+  accountDetails String
+  approvedById   String?
+  rejectionNote  String?
+  paidAt         DateTime?
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId, status])
+  @@index([status])
+}
+
+model DepositRequest {
+  id            String        @id @default(cuid())
+  userId        String
+  amount        Decimal       @db.Decimal(18, 2)
+  status        DepositStatus @default(PENDING)
+  paymentMethod String
+  reference     String?
+  approvedById  String?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId, status])
+}
+
+model CommissionRule {
+  id            String   @id @default(cuid())
+  role          UserRole @unique
+  sportPercent  Decimal  @db.Decimal(5, 2)
+  casinoPercent Decimal  @db.Decimal(5, 2)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model CommissionAccrual {
+  id            String   @id @default(cuid())
+  userId        String
+  referenceType String
+  referenceId   String
+  amount        Decimal  @db.Decimal(18, 2)
+  percent       Decimal  @db.Decimal(5, 2)
+  settled       Boolean  @default(false)
+  createdAt     DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId, settled])
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  actorId    String?
+  action     String
+  entityType String
+  entityId   String?
+  metadata   Json?
+  ipAddress  String?
+  createdAt  DateTime @default(now())
+
+  actor User? @relation("AuditActor", fields: [actorId], references: [id])
+
+  @@index([actorId, createdAt])
+  @@index([entityType, entityId])
+}
+
+model KycDocument {
+  id             String    @id @default(cuid())
+  userId         String
+  documentType   String
+  documentNumber String
+  documentUrl    String
+  status         KycStatus @default(PENDING)
+  reviewedById   String?
+  reviewNote     String?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+  @@index([status])
+}
+
+model PlatformSetting {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     Json
+  updatedAt DateTime @updatedAt
+}

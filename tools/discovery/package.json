@@ -1,0 +1,17 @@
+{
+  "name": "@bpexch/discovery",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "tsx src/crawl.ts",
+    "install-browsers": "playwright install chromium"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "playwright": "^1.49.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
