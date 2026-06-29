@@ -6,7 +6,7 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors({
-    origin: process.env.CORS_ORIGIN?.split(',') || ['http://localhost:3002', 'http://localhost:3000'],
+    origin: process.env.CORS_ORIGIN?.split(',') || true,
     credentials: true,
   });
   app.useGlobalPipes(
@@ -17,9 +17,9 @@ async function bootstrap() {
     }),
   );
   app.setGlobalPrefix('api');
-  const port = process.env.API_PORT || 3001;
-  await app.listen(port);
-  console.log(`Bpexch API running on http://localhost:${port}`);
+  const port = Number(process.env.PORT || process.env.API_PORT || 3001);
+  await app.listen(port, '0.0.0.0');
+  console.log(`Bpexch API running on port ${port}`);
 }
 
 bootstrap();
