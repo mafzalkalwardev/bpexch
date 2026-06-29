@@ -2,6 +2,8 @@
 
 Self-hosted BetPro-style betting exchange with PostgreSQL, five-tier RBAC, sports exchange, and live casino.
 
+**Repository:** https://github.com/mafzalkalwardev/bpexch
+
 ## Quick Start
 
 ### Prerequisites
@@ -11,7 +13,7 @@ Self-hosted BetPro-style betting exchange with PostgreSQL, five-tier RBAC, sport
 ### Setup
 
 ```bash
-# Start PostgreSQL + Redis
+# Start PostgreSQL (port 5433) + Redis (port 6380)
 npm run docker:up
 
 # Install dependencies
@@ -26,8 +28,14 @@ npm run db:seed
 
 # Development (two terminals)
 npm run dev -w @bpexch/api   # http://localhost:3001
-npm run dev -w @bpexch/web   # http://localhost:3000
+npm run dev -w @bpexch/web   # http://localhost:3002
 ```
+
+> **Note:** Web runs on **3002** (3000 may be in use). PostgreSQL maps to **5433** on host.
+
+### Login URLs (same as reference site)
+- http://localhost:3002/login
+- http://localhost:3002/Users/Login
 
 ### Discovery Scraper (optional)
 
